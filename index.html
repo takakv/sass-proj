@@ -12,6 +12,11 @@
 
     <!-- greensock -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <!-- Use the new libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/MotionPathPlugin.min.js"></script>
+
+    <script defer src="./js/looper.js"></script>
 </head>
 
 <body class="home">
@@ -24,16 +29,11 @@
             </div>
             <a class="navbar__availability--link" href="mailto:sander.siim.1993@gmail.com">
                 <div class="navbar__availability">
-                    <p>
-                        AVAILABLE FOR FREELANCE WORK <span class="dot"></span>&nbsp;&nbsp;&nbsp;
-                        AVAILABLE FOR FREELANCE WORK <span class="dot"></span>&nbsp;&nbsp;&nbsp;
-                        AVAILABLE FOR FREELANCE WORK <span class="dot"></span>&nbsp;&nbsp;&nbsp;
-                    </p>
-                    <p>
-                        AVAILABLE FOR FREELANCE WORK <span class="dot"></span>&nbsp;&nbsp;&nbsp;
-                        AVAILABLE FOR FREELANCE WORK <span class="dot"></span>&nbsp;&nbsp;&nbsp;
-                        AVAILABLE FOR FREELANCE WORK <span class="dot"></span>&nbsp;&nbsp;&nbsp;
-                    </p>
+                    <div class="navbar__scroller" id="#content">
+                        <div class="scroller-content">
+                          <p>Available for freelance work</p><div class="dot"></div>
+                        </div>
+                    </div>
                 </div>
             </a>
             <div class="navbar__links">
@@ -486,9 +486,10 @@
                                 <span style="--index: 60"> </span>
                             </div>
                         </a>
+                    </a>
                 </div>
             </div>
-        </div>      
+        </div>
 
         <!-- horizontal scroll items -->
         <div class="container">
@@ -499,7 +500,7 @@
             <div class="container__item container__item-1">
                 <h1 class="container__item-title">
                     <a href="images/img-one.png" target="_blank"> Töö1
-                        <img src="images/img-one.png" alt="" style="width: 1200px;max-width: 100%;height: auto;vertical-align: 
+                        <img src="images/img-one.png" alt="" style="width: 1200px;max-width: 100%;height: auto;vertical-align:
                             middle;border-style: none;">
                     </a>
                 </h1>
